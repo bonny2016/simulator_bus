@@ -39,8 +39,8 @@ if __name__ == "__main__":
     env_evaluate = BusEnv()
     # Set random seed
     seed = 0
-    env.seed(seed)
-    env.action_space.seed(seed)
+    # env.seed(seed)
+    # env.action_space.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
     agent = A2C(N_BUS_FEATURES, N_STOP_FEATURES, N_ACTIONS, N_BUSES, N_STOPS, 64) #bus_state_dim, stop_state_dim, action_dim, hidden_dim = 64):
