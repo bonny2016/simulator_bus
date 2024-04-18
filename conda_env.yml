@@ -1,0 +1,15 @@
+name: pytorch_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3    # Adjust this according to your CUDA version if using GPU
+  - pip
+  - pip:
+    - tensorboard
+    - gym
+    - gym-notices
