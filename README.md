@@ -18,4 +18,14 @@ File conda_env.yml containes all the packages that will be needed.
 
 * `conda env create -f conda_env.yml`
 
-* `conda activate simulator-bus`
+* `conda activate pytorch_env`
+
+## Run simulator
+```
+  python simulator\environ.py
+```
+
+## Train Actor-Critic Model:
+```
+  python main.py
+```
