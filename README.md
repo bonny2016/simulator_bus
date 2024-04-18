@@ -1,7 +1,6 @@
 # simulator_bus
 
 ## Setup
-Run these steps to get the Snowflake create the database that will be used, the stored procedures and the Streamlit App
 
 ### **Step 1** -- Clone Repo
 
@@ -22,7 +21,7 @@ File conda_env.yml containes all the packages that will be needed.
 
 ## Run simulator
 ```
-  python simulator\environ.py
+  python -m simulator.environ
 ```
 
 ## Train Actor-Critic Model:
